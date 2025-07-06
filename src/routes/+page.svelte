@@ -1,4 +1,5 @@
 <script>
+  import Calendar from "$lib/components/Calendar/Calendar.svelte";
   import LightSwitch from "$lib/LightSwitch.svelte";
   import ThemeSwitcher from "$lib/ThemeSwitcher.svelte";
 </script>
@@ -15,3 +16,4 @@
   <LightSwitch />
   <ThemeSwitcher />
 </div>
+<Calendar />

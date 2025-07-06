@@ -8,6 +8,7 @@
         : "dark";
 
     document.documentElement.setAttribute("data-mode", newMode);
+    // TODO: LOOK AT SETTING THESE IN LOCAL STORAGE SO IT PERSISTS
   }
 </script>
 
